@@ -12,6 +12,8 @@ namespace TastyOrders_API.Data
         }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<ShoppingCart> shoppingCarts { get; set; }
+        public DbSet<CartItem> cartItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
