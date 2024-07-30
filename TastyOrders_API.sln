@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyOrders_API", "TastyOrders_API\TastyOrders_API.csproj", "{EA59E1E2-4411-4716-8DB4-4C69FE96B2FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyOrders_API", "TastyOrders_API\TastyOrders_API.csproj", "{EA59E1E2-4411-4716-8DB4-4C69FE96B2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyOrders_UI", "TastyOrders_UI\TastyOrders_UI.csproj", "{A741EB92-4A8A-4768-9B9B-F7B2C787BADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA59E1E2-4411-4716-8DB4-4C69FE96B2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA59E1E2-4411-4716-8DB4-4C69FE96B2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA59E1E2-4411-4716-8DB4-4C69FE96B2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A741EB92-4A8A-4768-9B9B-F7B2C787BADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A741EB92-4A8A-4768-9B9B-F7B2C787BADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A741EB92-4A8A-4768-9B9B-F7B2C787BADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A741EB92-4A8A-4768-9B9B-F7B2C787BADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
