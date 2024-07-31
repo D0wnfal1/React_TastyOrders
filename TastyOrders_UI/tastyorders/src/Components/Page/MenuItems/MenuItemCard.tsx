@@ -32,7 +32,7 @@ function MenuItemCard(props: Props) {
           </Link>
           <div className="p-4">
             <div className="d-flex justify-content-between align-items-center mb-2">
-              <span className="badge bg-warning text-dark">SPECIAL</span>
+              <span className="badge bg-warning text-dark">{menuItem.specialTag}</span>
               <button className="btn btn-outline-primary btn-sm">
                 <i className="bi bi-bag-plus"></i>
               </button>

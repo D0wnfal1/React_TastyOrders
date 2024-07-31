@@ -5,8 +5,8 @@ import { useState, useEffect } from 'react';
 import menuItemModel from '../Interfaces/menuItemModel.ts';
 import Home from '../Pages/Home.tsx';
 import { Route, Routes } from 'react-router-dom';
-import NotFound from '../Pages/NotFound.jsx';
-import MenuItemDetails from '../Pages/MenuItemDetails.jsx';
+import NotFound from '../Pages/NotFound.tsx';
+import MenuItemDetails from '../Pages/MenuItemDetails.tsx';
 
 function App() {
 
